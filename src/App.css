@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Futura";
+  scroll-behavior: smooth;
+}
+body {
+  max-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  padding: 0 2em;
+  background-color: #6c5ce7;
+}

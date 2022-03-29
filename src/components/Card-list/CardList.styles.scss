@@ -1,0 +1,63 @@
+.cardlist__card__container {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.product__category {
+  // font-family: "Playfair Display";
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: .5em;
+  color: #6049f5;
+  position: relative;
+}
+
+.product__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  // gap: 2em;
+}
+// .img__container {
+//   width: 100%;
+//   height: 100%;
+// }
+// .img__container img {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+//   border-radius: 19px;
+// }
+
+// .product__info {
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   margin-top: 0.8em;
+// }
+// .product__price {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+// .cart__icon__container {
+//   background-color: red;
+//   display: flex;
+//   justify-content: center;
+//   align-self: center;
+//   padding: 0.3em;
+//   border-radius: 50%;
+//   margin-left: 1em;
+// }
+// .add_to_cart {
+//   color: white;
+// }

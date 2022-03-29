@@ -1,0 +1,106 @@
+.signin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(96, 73, 245);
+
+  .container {
+    width: 60%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 27px;
+    .text {
+      margin-bottom: 2em;
+      text-align: center;
+      color: rgb(96, 73, 245);
+      h1 {
+        font-size: 4rem;
+      }
+    }
+    input {
+      width: 50%;
+      height: 40px;
+      border: none;
+      outline: none;
+      border-radius: 19px;
+      padding-left: 1em;
+      //   box-shadow: 0 2px 8px 0px black;
+      border: 2px solid rgb(96, 73, 245);
+      margin: 0.5em 0;
+    }
+    button {
+      border: none;
+      outline: none;
+      background-color: rgb(96, 73, 245);
+      padding: 0.8em 1.4em;
+      margin: 1em 0;
+      width: 30%;
+      border-radius: 19px;
+      color: white;
+      transition: 0.4s;
+      &:hover {
+        background-color: rgb(78, 58, 209);
+      }
+    }
+  }
+}
+.signin__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    margin: 1em 0;
+  }
+
+  .social__sigin__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.create__account {
+  margin-top: 1em;
+  span {
+    cursor: pointer;
+    margin: 0 0.3em;
+    a {
+      color: rgb(96, 73, 245);
+      text-decoration: none;
+    }
+  }
+}
+.or {
+  color: gray;
+  font-size: 0.7rem;
+  margin-bottom: 1.4em;
+  position: relative;
+  width: 100%;
+  //   border: 2px solid black;
+  text-align: center;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+    width: 21%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(110%, -50%);
+    width: 21%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+  }
+}
